@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
-import Image from 'next/image';
-import ThemeToggle from './ThemeToggle';
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import ThemeToggle from "./ThemeToggle";
 
 export default function HeroSection() {
   const [mounted, setMounted] = useState(false);
@@ -14,9 +14,9 @@ export default function HeroSection() {
 
   const scrollToContact = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    const contactSection = document.getElementById('contact');
+    const contactSection = document.getElementById("contact");
     if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' });
+      contactSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -75,9 +75,9 @@ export default function HeroSection() {
             href="#services"
             onClick={(e) => {
               e.preventDefault();
-              const servicesSection = document.getElementById('services');
+              const servicesSection = document.getElementById("services");
               if (servicesSection) {
-                servicesSection.scrollIntoView({ behavior: 'smooth' });
+                servicesSection.scrollIntoView({ behavior: "smooth" });
               }
             }}
             className="inline-flex items-center justify-center px-8 py-3.5 border border-gray-300 dark:border-gray-600 text-base font-medium rounded-md text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200"

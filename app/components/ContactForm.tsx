@@ -1,20 +1,20 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission
-    console.log('Form submitted:', formData);
+    console.log("Form submitted:", formData);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -45,7 +45,7 @@ export default function ContactForm() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
           >
-            Have a project in mind? Let's discuss how we can help you achieve your goals.
+            Have a project in mind? Let"s discuss how we can help you achieve your goals.
           </motion.p>
         </div>
 
