@@ -92,7 +92,7 @@ export default function TestimonialsSection() {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-300 italic">
-                "{testimonial.content}"
+                &quot;{testimonial.content}&quot;
               </p>
             </motion.div>
           ))}
