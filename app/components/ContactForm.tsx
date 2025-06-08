@@ -45,7 +45,7 @@ export default function ContactForm() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
           >
-            "Have a project in mind? Let's discuss how we can help you achieve your goals".
+            Have a project in mind? Let's discuss how we can help you achieve your goals.
           </motion.p>
         </div>
 
