@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import ThemeToggle from "./ThemeToggle";
+
 
 export default function HeroSection() {
   const [mounted, setMounted] = useState(false);
