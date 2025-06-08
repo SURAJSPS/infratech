@@ -33,7 +33,7 @@ const testimonials: Testimonial[] = [
 ];
 
 export default function TestimonialsSection() {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [, setActiveIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
