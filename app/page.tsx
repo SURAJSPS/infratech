@@ -47,7 +47,7 @@ export default function Home() {
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       />
                     </svg>
-                    <span className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</span>
+                    <span className="text-gray-600 dark:text-gray-300">+91 9717065425</span>
                   </div>
                   <div className="flex items-center">
                     <svg
@@ -86,7 +86,7 @@ export default function Home() {
                       />
                     </svg>
                     <span className="text-gray-600 dark:text-gray-300">
-                      123 Business Avenue, Tech City, TC 12345
+                    721 Saroja Nagar, Lucknow, Uttar Pradesh, India - 226008
                     </span>
                   </div>
                 </div>
