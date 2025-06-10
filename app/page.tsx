@@ -9,16 +9,14 @@ import TeamSection from './components/TeamSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
-import ServiceToggle from './components/ServiceToggle';
 
 export default function Home() {
   const [activeService, setActiveService] = useState<'IT' | 'Civil'>('IT');
 
   return (
     <main className="min-h-screen bg-white dark:bg-gray-900">
-      <Navbar />
-      <HeroSection />
-      <ServiceToggle onServiceChange={setActiveService} />
+      <Navbar activeService={activeService} onServiceChange={setActiveService} />
+      <HeroSection serviceType={activeService} />
       {activeService === 'IT' ? <ServicesSection /> : <CivilServicesSection />}
       <TeamSection />
       <TestimonialsSection />

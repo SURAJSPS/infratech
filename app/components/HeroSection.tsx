@@ -4,8 +4,11 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+interface HeroSectionProps {
+  serviceType: 'IT' | 'Civil';
+}
 
-export default function HeroSection() {
+export default function HeroSection({ serviceType }: HeroSectionProps) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -20,6 +23,21 @@ export default function HeroSection() {
     }
   };
 
+  const heroContent = {
+    IT: {
+      title: "Transforming Ideas into",
+      subtitle: "Digital Reality",
+      description: "We combine cutting-edge technology with innovative solutions to help businesses thrive in the digital age.",
+      image: "/grid.svg"
+    },
+    Civil: {
+      title: "Building Tomorrow's",
+      subtitle: "Infrastructure Today",
+      description: "Expert civil engineering solutions for construction, electrical, mechanical, and fire safety systems.",
+      image: "/grid.svg"
+    }
+  };
+
   if (!mounted) {
     return null;
   }
@@ -29,7 +47,7 @@ export default function HeroSection() {
       {/* Background Grid */}
       <div className="absolute inset-0 opacity-10 dark:opacity-20">
         <Image
-          src="/grid.svg"
+          src={heroContent[serviceType].image}
           alt="Grid Background"
           fill
           className="object-cover"
@@ -45,8 +63,8 @@ export default function HeroSection() {
           transition={{ duration: 0.8 }}
           className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-8"
         >
-          Transforming Ideas into
-          <span className="block text-blue-600 dark:text-blue-400 mt-2">Digital Reality</span>
+          {heroContent[serviceType].title}
+          <span className="block text-blue-600 dark:text-blue-400 mt-2">{heroContent[serviceType].subtitle}</span>
         </motion.h1>
         
         <motion.p 
@@ -55,7 +73,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto"
         >
-          We combine cutting-edge technology with innovative solutions to help businesses thrive in the digital age.
+          {heroContent[serviceType].description}
         </motion.p>
 
         <motion.div 
