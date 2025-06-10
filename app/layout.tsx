@@ -6,7 +6,7 @@ import ThemeProvider from './components/ThemeProvider';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "RK INFRA TECH - IT & Infrastructure Solutions",
+  title: "RK INFRATECH - IT & Infrastructure Solutions",
   description: "Comprehensive IT and infrastructure solutions for businesses. We provide software development, IT infrastructure, cloud solutions, and more.",
   icons: {
     icon: '/favicon.ico',

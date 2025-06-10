@@ -13,19 +13,19 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    content: "RK INFRA TECH has transformed our IT infrastructure with their innovative solutions. Their team's expertise and dedication are unmatched.",
+    content: "RK INFRATECH has transformed our IT infrastructure with their innovative solutions. Their team's expertise and dedication are unmatched.",
     author: "Sarah Wilson",
     role: "IT Director",
     company: "TechCorp Inc."
   },
   {
-    content: "The civil infrastructure projects delivered by RK INFRA TECH have exceeded our expectations. Their attention to detail and quality is exceptional.",
+    content: "The civil infrastructure projects delivered by RK INFRATECH have exceeded our expectations. Their attention to detail and quality is exceptional.",
     author: "Michael Brown",
     role: "Project Manager",
     company: "BuildRight Construction"
   },
   {
-    content: "Working with RK INFRA TECH has been a game-changer for our business. Their cloud solutions have significantly improved our operational efficiency.",
+    content: "Working with RK INFRATECH has been a game-changer for our business. Their cloud solutions have significantly improved our operational efficiency.",
     author: "Emily Chen",
     role: "Operations Director",
     company: "Global Solutions Ltd."

@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-white mb-4">RK INFRA TECH</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">RK INFRATECH</h3>
             <p className="text-gray-400 mb-6 max-w-md">
               Providing comprehensive IT and infrastructure solutions to help businesses thrive in the digital age.
             </p>
@@ -85,7 +85,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 pt-8 border-t border-gray-800">
           <p className="text-center text-gray-400">
-            © {new Date().getFullYear()} RK INFRA TECH. All rights reserved.
+            © {new Date().getFullYear()} RK INFRATECH. All rights reserved.
           </p>
         </div>
       </div>
