@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import ServicesSection from './components/ServicesSection';
 import CivilServicesSection from './components/CivilServicesSection';
+import ProjectsSection from './components/ProjectsSection';
 import TeamSection from './components/TeamSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import ContactForm from './components/ContactForm';
@@ -18,6 +19,7 @@ export default function Home() {
       <Navbar activeService={activeService} onServiceChange={setActiveService} />
       <HeroSection serviceType={activeService} />
       {activeService === 'IT' ? <ServicesSection /> : <CivilServicesSection />}
+      <ProjectsSection serviceType={activeService} />
       <TeamSection />
       <TestimonialsSection />
       <section className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
