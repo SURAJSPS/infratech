@@ -9,7 +9,7 @@ interface NavbarProps {
   onServiceChange: (service: 'IT' | 'Civil') => void;
 }
 
-export default function Navbar({ activeService, onServiceChange }: NavbarProps) {
+export default function Navbar({  onServiceChange }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
