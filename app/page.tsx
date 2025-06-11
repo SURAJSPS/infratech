@@ -10,6 +10,7 @@ import TeamSection from './components/TeamSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import ImprovementsSection from './components/ImprovementsSection';
 
 export default function Home() {
   const [activeService, setActiveService] = useState<'IT' | 'Civil'>('IT');
@@ -20,6 +21,7 @@ export default function Home() {
       <HeroSection serviceType={activeService} />
       {activeService === 'IT' ? <ServicesSection /> : <CivilServicesSection />}
       <ProjectsSection serviceType={activeService} />
+      <ImprovementsSection />
       <TeamSection />
       <TestimonialsSection />
       <section className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">

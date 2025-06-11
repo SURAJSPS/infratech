@@ -1,9 +1,43 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
+} */
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  
+  .service-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .project-card {
+    margin: 0 0.5rem;
+  }
+}
+
+/* Performance optimizations */
+.lazy-load {
+  content-visibility: auto;
+  contain-intrinsic-size: 300px;
+}
+
+/* Professional color scheme */
+:root {
+  --primary-blue: #1B365D;
+  --accent-orange: #F97316;
+  --neutral-gray: #6B7280;
+  --success-green: #10B981;
 }
 
 @theme inline {
