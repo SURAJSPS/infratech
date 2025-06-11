@@ -39,26 +39,26 @@ const projects: Project[] = [
     type: 'IT'
   },
   {
-    title: 'Cybersecurity Implementation',
-    description: 'Comprehensive security system implementation for a government organization.',
-    location: 'Government Complex, GC',
+    title: 'Disha App',
+    description: "DISHA is a self-help app designed to help visitors and taxpayers quickly find sections and offices across the CGST & Customs Pune Zone. It ensures easy navigation and access to essential departmental information at your fingertips.",
+    location: 'Pune, Maharashtra',
     status: 'completed',
     images: [
-      '/projects/it/security-1.jpg',
-      '/projects/it/security-2.jpg',
-      '/projects/it/security-3.jpg'
+      '/projects/it/disha-1.jpg',
+      '/projects/it/disha-2.jpg',
+      '/projects/it/disha-3.jpg'
     ],
     type: 'IT'
   },
   {
-    title: 'Digital Transformation',
-    description: 'End-to-end digital transformation project for a retail chain, including e-commerce and inventory management.',
-    location: 'Retail Hub, RH',
+    title: 'VIDHAN App',
+    description: "VIDHAAN is a self-help portal that guides taxpayers through the appeal process for GST, Service Tax, Central Excise, and Customs. It offers quick, accurate, and accessible information with easy-to-follow guidelines—empowering users to resolve queries without in-person visits or delays.",
+    location: 'Pune, Maharashtra',
     status: 'completed',
     images: [
-      '/projects/it/digital-1.jpg',
-      '/projects/it/digital-2.jpg',
-      '/projects/it/digital-3.jpg'
+      '/projects/it/vidhan-1.jpg',
+      '/projects/it/vidhan-2.jpg',
+      '/projects/it/vidhan-3.jpg'
     ],
     type: 'IT'
   },
@@ -76,14 +76,14 @@ const projects: Project[] = [
     type: 'Civil'
   },
   {
-    title: 'Commercial Complex',
-    description: 'Modern commercial building with advanced electrical and mechanical systems, featuring sustainable design.',
-    location: 'Business District, BD',
+    title: 'Commercial Complex at Gomti Nagar Railway Station',
+    description: "At the Gomti Nagar Railway Station Commercial Complex, we delivered a robust fire safety solution featuring modern fire detection and suppression systems. Our installation ensures the complex meets all safety regulations, offering reliable protection against fire hazards.",
+    location: 'Lucknow, Uttar Pradesh',
     status: 'ongoing',
     images: [
-      '/projects/civil/commercial-1.jpg',
-      '/projects/civil/commercial-2.jpg',
-      '/projects/civil/commercial-3.jpg'
+      '/projects/civil/gomti-1.webp',
+      '/projects/civil/gomti-2.webp',
+      '/projects/civil/gomti-3.webp'
     ],
     type: 'Civil'
   },
