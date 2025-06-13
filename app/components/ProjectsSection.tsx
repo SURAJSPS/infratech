@@ -82,8 +82,13 @@ const projects: Project[] = [
     status: 'ongoing',
     images: [
       '/projects/civil/gomti-1.webp',
-      '/projects/civil/gomti-2.webp',
-      '/projects/civil/gomti-3.webp'
+      '/projects/civil/gomti-1.jpeg',
+      '/projects/civil/gomti-2.jpeg',
+      '/projects/civil/gomti-3.jpeg',
+      '/projects/civil/gomti-4.jpeg',
+      '/projects/civil/gomti-5.jpeg',
+      '/projects/civil/gomti-6.jpeg',
+      '/projects/civil/gomti-7.jpeg',
     ],
     type: 'Civil'
   },
