@@ -115,6 +115,17 @@ const projects: Project[] = [
       '/projects/civil/industrial-3.jpg'
     ],
     type: 'Civil'
+  },{
+    title: 'Police Modern School',
+    description: "Construction of a boundary wall and tile work at Police Modern School, 20th Battalion PAC, Azamgarh, Uttar Pradesh. Enhancing campus security and improving school infrastructure. Executed with high-quality materials and skilled workmanship.",
+    location: 'Azamgarh, Uttar Pradesh',
+    status: 'completed',
+    images: [
+      '/projects/civil/azamgarh-1.jpg',
+      '/projects/civil/azamgarh-2.jpg',
+      '/projects/civil/azamgarh-3.jpg'
+    ],
+    type: 'Civil'
   }
 ];
 

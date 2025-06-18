@@ -28,17 +28,9 @@ const services: Service[] = [
     title: 'Cybersecurity',
     description: 'Advanced security solutions to protect your digital assets and ensure data privacy.',
     icon: '🔒'
-  },
-  {
-    title: 'Civil Infrastructure',
-    description: 'Expert civil engineering and construction services for modern infrastructure development.',
-    icon: '🏗️'
-  },
-  {
-    title: 'Mechanical Solutions',
-    description: 'Innovative mechanical engineering solutions for industrial and commercial applications.',
-    icon: '⚙️'
   }
+  
+  
 ];
 
 export default function ServicesSection() {
